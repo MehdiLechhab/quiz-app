@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightblue;
+}
+
+.banner {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+
+}
+
+.main-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+	width: 100px;
+}
+
+
+
+.start-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.start-page__row {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.title-margin {
+	margin-right: 120px;
+}
+
+.quiz-form {
+	width: 400px;
+	margin: 0 auto;
+	padding: 40px;
+}

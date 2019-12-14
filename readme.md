@@ -1,0 +1,1 @@
+This is a quiz app about countries and capitals
