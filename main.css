@@ -47,3 +47,34 @@ body {
 	margin: 0 auto;
 	padding: 40px;
 }
+
+.button {
+	display: block;
+	color: black;
+	text-decoration: none;
+	background-color: rgba(51, 204, 204, .7);
+	border: 1px solid black;
+	margin: 10px auto;
+	max-width: 60px;
+	padding: 5px 8px 5px 8px;
+	text-align: center;
+	transition: ease-in .15s;
+}
+
+.button-margin {
+	margin-bottom: 50px;
+	font-size: 1.87em;
+	max-width: 140px;
+}
+
+.button:hover {
+	color: white;
+	background: rgba(51, 204, 204, 1);
+}
+
+.result {
+	color: black;
+	background-color: rgba(51, 204, 204, .7);
+	border: 1px solid black;
+	padding: 0 8px 0 8px;
+}
